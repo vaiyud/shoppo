@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shoppo</title>
+        <!-- material icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="shortcut icon" type="image/jpg" href="./img/logo.png"/>
+    </head>
+
+    <body>
+        <!-- navigation bar -->
+        <div class="nav-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="index.html"><img class="logo-img" src="./img/shoppo.png" alt="logo"></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="profile.html"><i class="material-icons">person</i></a></li>
+                        <li><a href="wishlist.html"><i class="material-icons">favorite</i></a></li>
+                        <li><a href="cart.html"><i class="material-icons">shopping_cart</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- search bar -->
+        <div class="container">
+            <form id="form1">
+                <div class="input-field" style="max-width: 400pt;">
+                    <input id="search" type="search" placeholder="Search here...">
+                </div>
+            </form>
+        </div>
+
+        <!-- products display -->
+        <div class="container">
+            <div class="row one">
+                <!-- item one -->
+                <div class="col s4 m6">
+                  <div class="card item-card">
+                    <div class="card-image ">
+                        <img class="item-img" src="./img/plant.jpg">
+                        <span class="card-title"></span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <div class="item-desc">
+                        <h5>Home Plant</h5>
+                        <div class="prices">
+                            <div class="price1">
+                                <img class="price-icons" src="./img/credits.gif"><samp>5000</samp>
+                            </div>
+                            <div class="price2">
+                                <img class="price-icons" src="./img/tokens.gif"><samp>300</samp>
+                            </div>
+                        </div>
+                        <button class="item-btn" role="button">ADD TO CART</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- item two -->
+                <div class="col s4 m6">
+                    <div class="card item-card">
+                      <div class="card-image ">
+                          <img class="item-img" src="./img/ice-cream.png">
+                          <span class="card-title"></span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                      </div>
+                      <div class="item-desc">
+                          <h5>Ice Cream</h5>
+                          <div class="prices">
+                              <div class="price1">
+                                  <img class="price-icons" src="./img/credits.gif"><samp>2000</samp>
+                              </div>
+                              <div class="price2">
+                                  <img class="price-icons" src="./img/tokens.gif"><samp>180</samp>
+                              </div>
+                          </div>
+                          <button class="item-btn" role="button">ADD TO CART</button>
+                      </div>
+                    </div>
+                </div>
+                <!-- item three -->
+                <div class="col s4 m6">
+                    <div class="card item-card">
+                      <div class="card-image ">
+                          <img class="item-img" src="./img/cookies.png">
+                          <span class="card-title"></span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                      </div>
+                      <div class="item-desc">
+                          <h5>Cookies</h5>
+                          <div class="prices">
+                              <div class="price1">
+                                  <img class="price-icons" src="./img/credits.gif"><samp>2200</samp>
+                              </div>
+                              <div class="price2">
+                                  <img class="price-icons" src="./img/tokens.gif"><samp>200</samp>
+                              </div>
+                          </div>
+                          <button class="item-btn" role="button">ADD TO CART</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row one">
+                <!-- item four -->
+                <div class="col s4 m6">
+                  <div class="card item-card">
+                    <div class="card-image ">
+                        <img class="item-img" src="./img/milkshake.png">
+                        <span class="card-title"></span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <div class="item-desc">
+                        <h5>Milkshake</h5>
+                        <div class="prices">
+                            <div class="price1">
+                                <img class="price-icons" src="./img/credits.gif"><samp>2500</samp>
+                            </div>
+                            <div class="price2">
+                                <img class="price-icons" src="./img/tokens.gif"><samp>220</samp>
+                            </div>
+                        </div>
+                        <button class="item-btn" role="button">ADD TO CART</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- item five -->
+                <div class="col s4 m6">
+                    <div class="card item-card">
+                      <div class="card-image ">
+                          <img class="item-img" src="./img/magic.jpg">
+                          <span class="card-title"></span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                      </div>
+                      <div class="item-desc">
+                          <h5>Magic Soup</h5>
+                          <div class="prices">
+                              <div class="price1">
+                                  <img class="price-icons" src="./img/credits.gif"><samp>10000</samp>
+                              </div>
+                              <div class="price2">
+                                  <img class="price-icons" src="./img/tokens.gif"><samp>800</samp>
+                              </div>
+                          </div>
+                          <button class="item-btn" role="button">ADD TO CART</button>
+                      </div>
+                    </div>
+                </div>
+                <!-- item six -->
+                <div class="col s4 m6">
+                    <div class="card item-card">
+                      <div class="card-image ">
+                          <img class="item-img" src="./img/pancake.jpg">
+                          <span class="card-title"></span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                      </div>
+                      <div class="item-desc">
+                          <h5>Pancake</h5>
+                          <div class="prices">
+                              <div class="price1">
+                                  <img class="price-icons" src="./img/credits.gif"><samp>2500</samp>
+                              </div>
+                              <div class="price2">
+                                  <img class="price-icons" src="./img/tokens.gif"><samp>220</samp>
+                              </div>
+                          </div>
+                          <button class="item-btn" role="button">ADD TO CART</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row one">
+                <!-- item seven -->
+                <div class="col s4 m6">
+                  <div class="card item-card">
+                    <div class="card-image ">
+                        <img class="item-img" src="./img/pizza.jpg">
+                        <span class="card-title"></span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <div class="item-desc">
+                        <h5>Pizza</h5>
+                        <div class="prices">
+                            <div class="price1">
+                                <img class="price-icons" src="./img/credits.gif"><samp>3000</samp>
+                            </div>
+                            <div class="price2">
+                                <img class="price-icons" src="./img/tokens.gif"><samp>280</samp>
+                            </div>
+                        </div>
+                        <button class="item-btn" role="button">ADD TO CART</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- item eight -->
+                <div class="col s4 m6">
+                    <div class="card item-card">
+                      <div class="card-image ">
+                          <img class="item-img" src="./img/drink.png">
+                          <span class="card-title"></span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                      </div>
+                      <div class="item-desc">
+                          <h5>XP Tea</h5>
+                          <div class="prices">
+                              <div class="price1">
+                                  <img class="price-icons" src="./img/credits.gif"><samp>80000</samp>
+                              </div>
+                              <div class="price2">
+                                  <img class="price-icons" src="./img/tokens.gif"><samp>1200</samp>
+                              </div>
+                          </div>
+                          <button class="item-btn" role="button">ADD TO CART</button>
+                      </div>
+                    </div>
+                </div>
+                <!-- item nine -->
+                <div class="col s4 m6">
+                    <div class="card item-card">
+                      <div class="card-image ">
+                          <img class="item-img" src="./img/satay.png">
+                          <span class="card-title"></span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light purple"><i class="fa fa-heart"></i></a>
+                      </div>
+                      <div class="item-desc">
+                          <h5>XP Teddies</h5>
+                          <div class="prices">
+                              <div class="price1">
+                                  <img class="price-icons" src="./img/credits.gif"><samp>3500</samp>
+                              </div>
+                              <div class="price2">
+                                  <img class="price-icons" src="./img/tokens.gif"><samp>320</samp>
+                              </div>
+                          </div>
+                          <button class="item-btn" role="button">ADD TO CART</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <!-- footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div style="text-align: justify;">
+                    <h5 class="white-text">Shoppo</h5>
+                    <h6 class="white-text">AN ONLINE SHOPPING PLATFORM FOR GAMES WITH GREAT DEALS</h6>
+                    <p class="grey-text text-lighten-4">Shoppo is a leading online gaming shopping site based in Gremoryland that 
+                        brings you great deals, with platforms existing across The Ethereal Isles including Wonderland, Thedas, 
+                        Westeros, Narnia, Pern, Hyrule and Neverland. We offer unbeatable deals featuring an endless range of products 
+                        priced at affordable rates. What are you waiting for? Come aboard and start browsing!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        © 2021 Shoppo. All rights reserved
+                    </div>
+                    <div class="col l4 offset-l2 s12 social">
+                        <a class="grey-text text-lighten-4" href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-1x social"></i></a>
+                        <a class="grey-text text-lighten-4" href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-1x social"></i></a>
+                        <a class="grey-text text-lighten-4" href="https://www.instagram.com/"><i id="social-ig" class="fa fa-instagram fa-1x social"></i></a>
+                        <a class="grey-text text-lighten-4" href="https://www.linkedin.com/"><i id="social-ln" class="fa fa-linkedin-square fa-1x social"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+</html>
